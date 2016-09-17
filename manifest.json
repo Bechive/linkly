@@ -1,0 +1,26 @@
+{
+  "description": "To send links between browsers",
+  "manifest_version": 2,
+  "name": "Linkly",
+  "version": "1.0",
+  "homepage_url": "https://github.com/BenFranzi/Linkly",
+  "icons": {
+    "48": "icons/linkly_48.png"
+  },
+
+  "applications": {
+    "gecko": {
+      "id": "linkly@benfranzi.com"
+    }
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/linkly_32.png",
+    "default_title": "Linkly",
+    "default_popup": "popup/linkly_send.html"
+  }
+}

@@ -1,0 +1,9 @@
+html, body {
+  width: 10em;
+}
+
+.click_option {
+  margin: 4% auto;
+  cursor: pointer;
+  font-family: 'Lato', sans-serif;
+}
