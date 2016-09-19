@@ -1,9 +1,30 @@
 html, body {
-  width: 10em;
+  width: 7.2em;
 }
 
 .click_option {
+  user-select: none;
+  border-radius: 5px;
   margin: 4% auto;
+  padding: 4px;
+  background-color: #6bba83;
   cursor: pointer;
+  text-align: center;
   font-family: 'Lato', sans-serif;
+  width: 90px;
+  font-size: 20px;
+
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;
+}
+
+.click_option:hover {
+  background-color: #366745;
+}
+
+.click_option:active {
+  background-color: #182e1f;
 }
