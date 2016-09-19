@@ -9,7 +9,10 @@
   },
 
   "permissions": [
-    "activeTab"
+    "activeTab",
+    "tabs",
+    "http://*/*",
+    "https://*/*"
   ],
 
   "browser_action": {
